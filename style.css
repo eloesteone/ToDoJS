@@ -9,14 +9,14 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
 
 #top {
     border-radius: 30px;
-    padding: 15%;
+    padding: 5%;
     margin-top: 5vh;
     display: flex;
     justify-content: center;
@@ -27,24 +27,24 @@ body {
 }
 
 #bot{
-    border-radius: 30px;
-    margin-top: 10vh;
     justify-content: center;
     align-items: center;
-    background-color: white;
     font-size: 20px;
     display: none;
-    border: 2px black solid;
 }
 
-p {
-    width: 75%;
+#task {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px black solid;
     text-align: center;
     color: rgba(252,70,107,1);
 }
 
-.del {
-    width: 25%;
+#howToUse {
+    text-align: center;
+    color: white;
 }
 
 button {
@@ -64,6 +64,7 @@ button {
 }
 
 input {
+    text-align: center;
     width: 75%;
     border-radius: 10px;
     font-size: 20px;
